@@ -141,11 +141,13 @@ const LoginPage = () => {
           />
         </div>
         {!isPasswordValid && (
-          <div className="error-message">
-            Password must have at least one lowercase letter, one uppercase
-            letter, one digit, one special character, and be at least 8
-            characters long
-          </div>
+         <div className="error-message">
+         Password must have at least one <br />
+         lowercase letter, one uppercase <br />
+         letter, one digit, one special character, <br />
+         and be at least 8 characters long
+       </div>
+       
         )}
 
         <button
@@ -155,6 +157,8 @@ const LoginPage = () => {
             color: "white",
             width: "160px",
             fontSize: "14px",
+            marginTop: "5px",
+
           }}
           onClick={handleSignUp}
           disabled={!isSignUpButtonEnabled}

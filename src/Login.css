@@ -126,8 +126,7 @@ h4 {
 .error-message {
   color: red;
   font-size: 0.8em;
-  margin-top: 5px;
-  word-wrap: break-word;
+  margin-top: -17px;
 }
 
 .icon {
@@ -140,7 +139,7 @@ h4 {
 
 .input-container {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .input-container input {
